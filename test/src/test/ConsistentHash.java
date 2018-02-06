@@ -7,7 +7,7 @@ import java.util.List;
 
 class ConsistentHash {  
     private int scope = 10000;
-    private List<Node> nodes;  
+    private  List<Node> nodes;  
   
     public ConsistentHash() {  
         nodes = new ArrayList<Node>();  
