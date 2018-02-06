@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 class ConsistentHash {  
-    private int scope = 10000;
+    private int  scope = 10000;
     private  List<Node> nodes;  
   
     public ConsistentHash() {  
